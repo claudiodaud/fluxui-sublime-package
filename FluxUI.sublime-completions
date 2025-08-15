@@ -1,1 +1,510 @@
-
+{
+    "scope": "text.html.blade, text.html",
+    "completions": [
+        // Accent
+        {
+            "trigger": "flux:accent",
+            "contents": "<flux:accent>\n\t$0\n</flux:accent>"
+        },
+        
+        // Avatar
+        {
+            "trigger": "flux:avatar",
+            "contents": "<flux:avatar />"
+        },
+        
+        // Badge
+        {
+            "trigger": "flux:badge",
+            "contents": "<flux:badge>$0</flux:badge>"
+        },
+        
+        // Brand
+        {
+            "trigger": "flux:brand",
+            "contents": "<flux:brand />"
+        },
+        
+        // Breadcrumbs
+        {
+            "trigger": "flux:breadcrumbs",
+            "contents": "<flux:breadcrumbs>\n\t$0\n</flux:breadcrumbs>"
+        },
+        
+        // Button
+        {
+            "trigger": "flux:button",
+            "contents": "<flux:button>\n\t$0\n</flux:button>"
+        },
+        {
+            "trigger": "flux:button-or-link",
+            "contents": "<flux:button-or-link>\n\t$0\n</flux:button-or-link>"
+        },
+        {
+            "trigger": "flux:button.group",
+            "contents": "<flux:button.group>\n\t<flux:button>$0</flux:button>\n</flux:button.group>"
+        },
+        
+        // Checkbox
+        {
+            "trigger": "flux:checkbox",
+            "contents": "<flux:checkbox />"
+        },
+        {
+            "trigger": "flux:checkbox all",
+            "contents": "<flux:checkbox all />"
+        },
+        {
+            "trigger": "flux:checkbox.group",
+            "contents": "<flux:checkbox.group>\n\t<flux:checkbox>$0</flux:checkbox>\n</flux:checkbox.group>"
+        },
+        {
+            "trigger": "flux:checkbox.indicator",
+            "contents": "<flux:checkbox.indicator />"
+        },
+        
+        // Dropdown & Menu
+        {
+            "trigger": "flux:dropdown",
+            "contents": "<flux:dropdown>\n\t$0\n</flux:dropdown>"
+        },
+        {
+            "trigger": "flux:menu",
+            "contents": "<flux:menu>\n\t<flux:menu.item>$0</flux:menu.item>\n</flux:menu>"
+        },
+        {
+            "trigger": "flux:menu.item",
+            "contents": "<flux:menu.item>$0</flux:menu.item>"
+        },
+        {
+            "trigger": "flux:menu.separator",
+            "contents": "<flux:menu.separator />"
+        },
+        {
+            "trigger": "flux:menu.radio",
+            "contents": "<flux:menu.radio>$0</flux:menu.radio>"
+        },
+        {
+            "trigger": "flux:menu.radio.group",
+            "contents": "<flux:menu.radio.group>\n\t<flux:menu.radio>$0</flux:menu.radio>\n</flux:menu.radio.group>"
+        },
+        {
+            "trigger": "flux:menu.checkbox",
+            "contents": "<flux:menu.checkbox>$0</flux:menu.checkbox>"
+        },
+        {
+            "trigger": "flux:menu.checkbox.group",
+            "contents": "<flux:menu.checkbox.group>\n\t<flux:menu.checkbox>$0</flux:menu.checkbox>\n</flux:menu.checkbox.group>"
+        },
+        {
+            "trigger": "flux:menu.submenu",
+            "contents": "<flux:menu.submenu>\n\t$0\n</flux:menu.submenu>"
+        },
+        {
+            "trigger": "flux:submenu",
+            "contents": "<flux:submenu>\n\t$0\n</flux:submenu>"
+        },
+        {
+            "trigger": "flux:navmenu",
+            "contents": "<flux:navmenu>\n\t<flux:navmenu.item>$0</flux:navmenu.item>\n</flux:navmenu>"
+        },
+        {
+            "trigger": "flux:navmenu.item",
+            "contents": "<flux:navmenu.item>$0</flux:navmenu.item>"
+        },
+        
+        // Field Components
+        {
+            "trigger": "flux:field",
+            "contents": "<flux:field>\n\t$0\n</flux:field>"
+        },
+        {
+            "trigger": "flux:fieldset",
+            "contents": "<flux:fieldset>\n\t<flux:legend>$0</flux:legend>\n</flux:fieldset>"
+        },
+        {
+            "trigger": "flux:legend",
+            "contents": "<flux:legend>$0</flux:legend>"
+        },
+        {
+            "trigger": "flux:label",
+            "contents": "<flux:label>$0</flux:label>"
+        },
+        {
+            "trigger": "flux:description",
+            "contents": "<flux:description>$0</flux:description>"
+        },
+        {
+            "trigger": "flux:error",
+            "contents": "<flux:error />"
+        },
+        
+        // Typography
+        {
+            "trigger": "flux:heading",
+            "contents": "<flux:heading>$0</flux:heading>"
+        },
+        {
+            "trigger": "flux:text",
+            "contents": "<flux:text>$0</flux:text>"
+        },
+        {
+            "trigger": "flux:link",
+            "contents": "<flux:link>$0</flux:link>"
+        },
+        
+        // Icon
+        {
+            "trigger": "flux:icon",
+            "contents": "<flux:icon />"
+        },
+        
+        // Input
+        {
+            "trigger": "flux:input",
+            "contents": "<flux:input />"
+        },
+        {
+            "trigger": "flux:input.group",
+            "contents": "<flux:input.group>\n\t<flux:input.group.prefix>$0</flux:input.group.prefix>\n\t<flux:input />\n</flux:input.group>"
+        },
+        {
+            "trigger": "flux:input.group.prefix",
+            "contents": "<flux:input.group.prefix>$0</flux:input.group.prefix>"
+        },
+        {
+            "trigger": "flux:input.group.suffix",
+            "contents": "<flux:input.group.suffix>$0</flux:input.group.suffix>"
+        },
+        
+        // Layout Components
+        {
+            "trigger": "flux:header",
+            "contents": "<flux:header>\n\t$0\n</flux:header>"
+        },
+        {
+            "trigger": "flux:sidebar",
+            "contents": "<flux:sidebar>\n\t$0\n</flux:sidebar>"
+        },
+        {
+            "trigger": "flux:sidebar.toggle",
+            "contents": "<flux:sidebar.toggle />"
+        },
+        {
+            "trigger": "flux:aside",
+            "contents": "<flux:aside>\n\t$0\n</flux:aside>"
+        },
+        {
+            "trigger": "flux:main",
+            "contents": "<flux:main>\n\t$0\n</flux:main>"
+        },
+        {
+            "trigger": "flux:footer",
+            "contents": "<flux:footer>\n\t$0\n</flux:footer>"
+        },
+        {
+            "trigger": "flux:container",
+            "contents": "<flux:container>\n\t$0\n</flux:container>"
+        },
+        {
+            "trigger": "flux:profile",
+            "contents": "<flux:profile />"
+        },
+        {
+            "trigger": "flux:spacer",
+            "contents": "<flux:spacer />"
+        },
+        
+        // Modal
+        {
+            "trigger": "flux:modal",
+            "contents": "<flux:modal>\n\t$0\n</flux:modal>"
+        },
+        
+        // Navigation
+        {
+            "trigger": "flux:navbar",
+            "contents": "<flux:navbar>\n\t<flux:navbar.item>$0</flux:navbar.item>\n</flux:navbar>"
+        },
+        {
+            "trigger": "flux:navbar.item",
+            "contents": "<flux:navbar.item>$0</flux:navbar.item>"
+        },
+        {
+            "trigger": "flux:navlist",
+            "contents": "<flux:navlist>\n\t<flux:navlist.group>\n\t\t<flux:navlist.item>$0</flux:navlist.item>\n\t</flux:navlist.group>\n</flux:navlist>"
+        },
+        {
+            "trigger": "flux:navlist.group",
+            "contents": "<flux:navlist.group>\n\t<flux:navlist.item>$0</flux:navlist.item>\n</flux:navlist.group>"
+        },
+        {
+            "trigger": "flux:navlist.item",
+            "contents": "<flux:navlist.item>$0</flux:navlist.item>"
+        },
+        
+        // Radio
+        {
+            "trigger": "flux:radio",
+            "contents": "<flux:radio />"
+        },
+        {
+            "trigger": "flux:radio.group",
+            "contents": "<flux:radio.group>\n\t<flux:radio>$0</flux:radio>\n</flux:radio.group>"
+        },
+        {
+            "trigger": "flux:radio.indicator",
+            "contents": "<flux:radio.indicator />"
+        },
+        
+        // Separator
+        {
+            "trigger": "flux:separator",
+            "contents": "<flux:separator />"
+        },
+        
+        // Select
+        {
+            "trigger": "flux:select",
+            "contents": "<flux:select>\n\t<flux:select.option>$0</flux:select.option>\n</flux:select>"
+        },
+        {
+            "trigger": "flux:select.option",
+            "contents": "<flux:select.option>$0</flux:select.option>"
+        },
+        {
+            "trigger": "flux:select.button",
+            "contents": "<flux:select.button>$0</flux:select.button>"
+        },
+        {
+            "trigger": "flux:select.search",
+            "contents": "<flux:select.search />"
+        },
+        
+        // Switch
+        {
+            "trigger": "flux:switch",
+            "contents": "<flux:switch />"
+        },
+        
+        // Textarea
+        {
+            "trigger": "flux:textarea",
+            "contents": "<flux:textarea />"
+        },
+        
+        // Tooltip
+        {
+            "trigger": "flux:tooltip",
+            "contents": "<flux:tooltip>\n\t$0\n</flux:tooltip>"
+        },
+        {
+            "trigger": "flux:tooltip.content",
+            "contents": "<flux:tooltip.content>\n\t$0\n</flux:tooltip.content>"
+        },
+        
+        // Helper Components
+        {
+            "trigger": "flux:with-field",
+            "contents": "<flux:with-field>\n\t$0\n</flux:with-field>"
+        },
+        {
+            "trigger": "flux:with-inline-field",
+            "contents": "<flux:with-inline-field>\n\t$0\n</flux:with-inline-field>"
+        },
+        {
+            "trigger": "flux:with-reversed-inline-field",
+            "contents": "<flux:with-reversed-inline-field>\n\t$0\n</flux:with-reversed-inline-field>"
+        },
+        {
+            "trigger": "flux:with-tooltip",
+            "contents": "<flux:with-tooltip>\n\t$0\n</flux:with-tooltip>"
+        },
+        {
+            "trigger": "flux:delegate-component",
+            "contents": "<flux:delegate-component>\n\t$0\n</flux:delegate-component>"
+        },
+        
+        // PRO COMPONENTS
+        
+        // Accordion
+        {
+            "trigger": "flux:accordion",
+            "contents": "<flux:accordion>\n\t$0\n</flux:accordion>"
+        },
+        
+        // Autocomplete
+        {
+            "trigger": "flux:autocomplete",
+            "contents": "<flux:autocomplete />"
+        },
+        
+        // Calendar
+        {
+            "trigger": "flux:calendar",
+            "contents": "<flux:calendar />"
+        },
+        
+        // Card
+        {
+            "trigger": "flux:card",
+            "contents": "<flux:card>\n\t$0\n</flux:card>"
+        },
+        
+        // Callout
+        {
+            "trigger": "flux:callout",
+            "contents": "<flux:callout>\n\t$0\n</flux:callout>"
+        },
+        
+        // Chart Components
+        {
+            "trigger": "flux:chart",
+            "contents": "<flux:chart>\n\t<flux:chart.svg>\n\t\t<flux:chart.line field=\"$0\" />\n\t</flux:chart.svg>\n</flux:chart>"
+        },
+        {
+            "trigger": "flux:chart.svg",
+            "contents": "<flux:chart.svg>\n\t$0\n</flux:chart.svg>"
+        },
+        {
+            "trigger": "flux:chart.line",
+            "contents": "<flux:chart.line field=\"$0\" />"
+        },
+        {
+            "trigger": "flux:chart.area",
+            "contents": "<flux:chart.area field=\"$0\" />"
+        },
+        {
+            "trigger": "flux:chart.axis",
+            "contents": "<flux:chart.axis axis=\"$0\">\n\t<flux:chart.axis.line />\n</flux:chart.axis>"
+        },
+        {
+            "trigger": "flux:chart.axis.line",
+            "contents": "<flux:chart.axis.line />"
+        },
+        {
+            "trigger": "flux:chart.axis.tick",
+            "contents": "<flux:chart.axis.tick />"
+        },
+        {
+            "trigger": "flux:chart.axis.grid",
+            "contents": "<flux:chart.axis.grid />"
+        },
+        {
+            "trigger": "flux:chart.cursor",
+            "contents": "<flux:chart.cursor />"
+        },
+        {
+            "trigger": "flux:chart.tooltip",
+            "contents": "<flux:chart.tooltip>\n\t<flux:chart.tooltip.heading field=\"$0\" />\n</flux:chart.tooltip>"
+        },
+        {
+            "trigger": "flux:chart.tooltip.heading",
+            "contents": "<flux:chart.tooltip.heading field=\"$0\" />"
+        },
+        {
+            "trigger": "flux:chart.tooltip.value",
+            "contents": "<flux:chart.tooltip.value field=\"$0\" />"
+        },
+        {
+            "trigger": "flux:chart.summary",
+            "contents": "<flux:chart.summary>\n\t$0\n</flux:chart.summary>"
+        },
+        {
+            "trigger": "flux:chart.summary.value",
+            "contents": "<flux:chart.summary.value field=\"$0\" />"
+        },
+        {
+            "trigger": "flux:chart.viewport",
+            "contents": "<flux:chart.viewport>\n\t$0\n</flux:chart.viewport>"
+        },
+        
+        // Command
+        {
+            "trigger": "flux:command",
+            "contents": "<flux:command>\n\t$0\n</flux:command>"
+        },
+        
+        // Context
+        {
+            "trigger": "flux:context",
+            "contents": "<flux:context>\n\t$0\n</flux:context>"
+        },
+        
+        // Date Picker
+        {
+            "trigger": "flux:date-picker",
+            "contents": "<flux:date-picker />"
+        },
+        {
+            "trigger": "flux:date-picker.input",
+            "contents": "<flux:date-picker.input />"
+        },
+        
+        // Editor
+        {
+            "trigger": "flux:editor",
+            "contents": "<flux:editor />"
+        },
+        
+        // Popover
+        {
+            "trigger": "flux:popover",
+            "contents": "<flux:popover>\n\t$0\n</flux:popover>"
+        },
+        
+        // Tabs
+        {
+            "trigger": "flux:tabs",
+            "contents": "<flux:tabs>\n\t<flux:tab>$0</flux:tab>\n</flux:tabs>"
+        },
+        {
+            "trigger": "flux:tab",
+            "contents": "<flux:tab>$0</flux:tab>"
+        },
+        {
+            "trigger": "flux:tab.group",
+            "contents": "<flux:tab.group>\n\t<flux:tabs>\n\t\t<flux:tab name=\"$0\"></flux:tab>\n\t</flux:tabs>\n\t<flux:tab.panel name=\"$0\"></flux:tab.panel>\n</flux:tab.group>"
+        },
+        {
+            "trigger": "flux:tab.panel",
+            "contents": "<flux:tab.panel name=\"$0\">\n\t\n</flux:tab.panel>"
+        },
+        
+        // Table
+        {
+            "trigger": "flux:table",
+            "contents": "<flux:table>\n\t<flux:table.columns>\n\t\t<flux:table.column>$0</flux:table.column>\n\t</flux:table.columns>\n\t<flux:table.rows>\n\t\t<flux:table.row>\n\t\t\t<flux:table.cell></flux:table.cell>\n\t\t</flux:table.row>\n\t</flux:table.rows>\n</flux:table>"
+        },
+        {
+            "trigger": "flux:table.column",
+            "contents": "<flux:table.column>$0</flux:table.column>"
+        },
+        {
+            "trigger": "flux:table.columns",
+            "contents": "<flux:table.columns>\n\t<flux:table.column>$0</flux:table.column>\n</flux:table.columns>"
+        },
+        {
+            "trigger": "flux:table.rows",
+            "contents": "<flux:table.rows>\n\t<flux:table.row>\n\t\t<flux:table.cell>$0</flux:table.cell>\n\t</flux:table.row>\n</flux:table.rows>"
+        },
+        {
+            "trigger": "flux:table.row",
+            "contents": "<flux:table.row>\n\t<flux:table.cell>$0</flux:table.cell>\n</flux:table.row>"
+        },
+        {
+            "trigger": "flux:table.cell",
+            "contents": "<flux:table.cell>$0</flux:table.cell>"
+        },
+        {
+            "trigger": "flux:pagination",
+            "contents": "<flux:pagination />"
+        },
+        
+        // Toast
+        {
+            "trigger": "flux:toast",
+            "contents": "<flux:toast />"
+        }
+    ]
+}
