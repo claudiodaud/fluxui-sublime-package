@@ -8,6 +8,8 @@ Complete FluxUI component library for Sublime Text with intelligent autocomplete
 
 
 
+
+
 [![Package Control](https://img.shields.io/packagecontrol/dt/FluxUI?style=flat-square)](https://packagecontrol.io/packages/FluxUI)
 [![GitHub release](https://img.shields.io/github/release/claudiodaud/fluxui-sublime-package.svg?style=flat-square)](https://github.com/claudiodaud/fluxui-sublime-package/releases)
 [![GitHub stars](https://img.shields.io/github/stars/claudiodaud/fluxui-sublime-package.svg?style=flat-square)](https://github.com/claudiodaud/fluxui-sublime-package/stargazers)
