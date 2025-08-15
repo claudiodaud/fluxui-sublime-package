@@ -2,6 +2,12 @@
 
 Complete FluxUI component library for Sublime Text with intelligent autocomplete and snippets for Laravel Livewire development.
 
+<img width="1180" height="909" alt="image" src="https://github.com/user-attachments/assets/aade8905-bc45-4092-b9c6-a3ea68866b0a" />
+
+<img width="642" height="566" alt="image" src="https://github.com/user-attachments/assets/a8b702ac-99c0-47a3-a9c8-9572567c059f" />
+
+
+
 [![Package Control](https://img.shields.io/packagecontrol/dt/FluxUI?style=flat-square)](https://packagecontrol.io/packages/FluxUI)
 [![GitHub release](https://img.shields.io/github/release/claudiodaud/fluxui-sublime-package.svg?style=flat-square)](https://github.com/claudiodaud/fluxui-sublime-package/releases)
 [![GitHub stars](https://img.shields.io/github/stars/claudiodaud/fluxui-sublime-package.svg?style=flat-square)](https://github.com/claudiodaud/fluxui-sublime-package/stargazers)
