@@ -1,1 +1,23 @@
-
+{
+    "version": "1.0.0",
+    "url": "https://github.com/claudiodaud/fluxui-sublime-package",
+    "description": "Complete FluxUI component library for Sublime Text with intelligent autocomplete and snippets. Supports all Free and Pro components for Laravel Livewire development.",
+    "author": "Claudio Daud",
+    "homepage": "https://github.com/claudiodaud/fluxui-sublime-package",
+    "issues": "https://github.com/claudiodaud/fluxui-sublime-package/issues",
+    "readme": "https://raw.githubusercontent.com/claudiodaud/fluxui-sublime-package/main/README.md",
+    "previous_names": [],
+    "labels": [
+        "auto-complete",
+        "snippets", 
+        "syntax highlighting",
+        "fluxui",
+        "livewire",
+        "laravel",
+        "components",
+        "ui framework",
+        "blade templates",
+        "frontend"
+    ],
+    "last_modified": "2025-01-08 12:00:00"
+}
