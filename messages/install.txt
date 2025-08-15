@@ -25,10 +25,12 @@ FEATURES:
 ✅ Clean, professional snippets
 
 DOCUMENTATION:
-📚 README: https://github.com/tu-usuario/fluxui-sublime-package
+📚 README: https://github.com/claudiodaud/fluxui-sublime-package
 🌐 FluxUI Docs: https://fluxui.dev
-🐛 Issues: https://github.com/tu-usuario/fluxui-sublime-package/issues
+🐛 Issues: https://github.com/claudiodaud/fluxui-sublime-package/issues
 
 Happy coding with FluxUI! 🚀
 
 ===============================================================================
+
+
