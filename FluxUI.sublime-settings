@@ -1,1 +1,19 @@
-
+{
+    "auto_complete_triggers": [
+        {
+            "selector": "text.html.blade",
+            "characters": "flux:"
+        },
+        {
+            "selector": "text.html",
+            "characters": "flux:"
+        }
+    ],
+    "auto_complete_commit_on_tab": true,
+    "auto_complete_delay": 50,
+    "auto_complete_size_limit": 4194304,
+    "word_separators": "./\\()\"'-:,.;<>~!@#$%^&*|+=[]{}`~?",
+    "show_definitions": true,
+    "enable_fluxui_completions": true,
+    "enable_fluxui_syntax_highlighting": true
+}
