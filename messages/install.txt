@@ -1,1 +1,34 @@
+===============================================================================
+FluxUI Package for Sublime Text - Successfully Installed!
+===============================================================================
 
+🎉 Welcome to FluxUI for Sublime Text!
+
+You now have access to 94+ FluxUI components with intelligent autocomplete.
+
+QUICK START:
+1. Open any .blade.php file
+2. Type "flux:" and see the magic happen!
+3. Press Tab to expand snippets
+
+EXAMPLES:
+- flux:button    → Complete button component
+- flux:table     → Full table structure  
+- flux:card      → Card with content
+- flux:chart     → Chart components (Pro)
+
+FEATURES:
+✅ 94+ FluxUI components (Free & Pro)
+✅ Intelligent autocomplete
+✅ Blade template support
+✅ Laravel Livewire integration
+✅ Clean, professional snippets
+
+DOCUMENTATION:
+📚 README: https://github.com/tu-usuario/fluxui-sublime-package
+🌐 FluxUI Docs: https://fluxui.dev
+🐛 Issues: https://github.com/tu-usuario/fluxui-sublime-package/issues
+
+Happy coding with FluxUI! 🚀
+
+===============================================================================
